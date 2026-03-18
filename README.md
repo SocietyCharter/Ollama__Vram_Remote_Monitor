@@ -1,6 +1,3 @@
-# Ollama__Vram_Remote_Monitor
-A little Ollama Vram Remote Monitor
-
 # Ollama Monitor
 
 A lightweight, always-on-top desktop widget that polls a remote [Ollama](https://ollama.com) server and displays real-time GPU stats, loaded models, and server health — no browser required.

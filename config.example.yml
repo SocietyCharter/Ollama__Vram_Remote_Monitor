@@ -1,0 +1,31 @@
+# config.example.yml — Ollama Monitor configuration
+#
+# Copy this file to config.yml and fill in your values.
+# Alternatively, set the equivalent environment variables (see comments).
+#
+# Priority: environment variables > config.yml > config.ini > built-in defaults
+# ─────────────────────────────────────────────────────────────────────────────
+
+# IP address or hostname of your Ollama server (REQUIRED)
+# Environment variable: OLLAMA_HOST
+host: YOUR_SERVER_IP
+
+# SSH username on the Ollama server, used to fetch GPU stats via nvidia-smi (REQUIRED)
+# Environment variable: OLLAMA_SSH_USER
+ssh_user: YOUR_SSH_USER
+
+# Ollama HTTP API port (optional, default: 11434)
+# Environment variable: OLLAMA_PORT
+port: 11434
+
+# Seconds between polling cycles (optional, default: 5)
+# Environment variable: OLLAMA_POLL_INTERVAL
+poll_interval: 5
+
+# HTTP request timeout in seconds (optional, default: 4)
+# Environment variable: OLLAMA_HTTP_TIMEOUT
+http_timeout: 4
+
+# SSH subprocess timeout in seconds (optional, default: 5)
+# Environment variable: OLLAMA_SSH_TIMEOUT
+ssh_timeout: 5
