@@ -1,4 +1,7 @@
 # Ollama Monitor
+<img width="981" height="418" alt="image" src="https://github.com/user-attachments/assets/5446749a-6d28-47e9-8929-e8e22af1b3aa" />
+
+
 
 A lightweight, always-on-top desktop widget that polls a remote [Ollama](https://ollama.com) server and displays real-time GPU stats, loaded models, and server health — no browser required.
 
