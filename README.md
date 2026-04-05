@@ -5,7 +5,7 @@
 
 A lightweight, always-on-top desktop widget that polls a remote [Ollama](https://ollama.com) server and displays real-time GPU stats, loaded models, and server health — no browser required.
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![Platform: Windows](https://img.shields.io/badge/platform-Windows-lightgrey) ![stdlib only](https://img.shields.io/badge/deps-stdlib%20only-green)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![Platform: Windows](https://img.shields.io/badge/platform-Windows-lightgrey) ![stdlib only](https://img.shields.io/badge/deps-stdlib%20only-green) ![Tested with Ollama 0.20.2](https://img.shields.io/badge/ollama-0.20.2%20tested-brightgreen)
 
 ---
 
@@ -29,6 +29,7 @@ A lightweight, always-on-top desktop widget that polls a remote [Ollama](https:/
 | tkinter | Included with standard Python for Windows |
 | SSH access to your Ollama server | Passwordless key auth strongly recommended |
 | `nvidia-smi` on the server | Required for GPU stats; HTTP metrics work without it |
+| Ollama server | Tested with **0.20.2**; any 0.x release with `/api/tags`, `/api/ps`, and `/api/version` endpoints should work |
 | PyYAML *(optional)* | Only needed if you use `config.yml` for configuration |
 
 ### Installation
